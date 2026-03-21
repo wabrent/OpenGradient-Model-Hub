@@ -157,21 +157,21 @@ print(f"Result: {result}")`
                   <div className="w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center font-bold text-sm">
                     1
                   </div>
-                  <h4 className="text-lg font-semibold text-white">Подготовка</h4>
+                  <h4 className="text-lg font-semibold text-white">Preparation</h4>
                 </div>
                 <div className="bg-gray-800/50 border border-white/10 rounded-xl p-4 ml-11">
                   <ul className="space-y-3 text-gray-300">
                     <li className="flex items-start gap-2">
                       <span className="text-indigo-400 mt-1">▸</span>
-                      <span>Получить <strong>OPG токены</strong> на <a href="https://faucet.opengradient.ai" target="_blank" className="text-indigo-400 hover:underline">faucet.opengradient.ai</a> (лимит: 0.1 OPG)</span>
+                      <span>Get <strong>OPG tokens</strong> from <a href="https://faucet.opengradient.ai" target="_blank" className="text-indigo-400 hover:underline">faucet.opengradient.ai</a> (limit: 0.1 OPG)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-indigo-400 mt-1">▸</span>
-                      <span>Получить <strong>ETH Base Sepolia</strong> для газа</span>
+                      <span>Get <strong>ETH Base Sepolia</strong> for gas</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-indigo-400 mt-1">▸</span>
-                      <span>Установить SDK:</span>
+                      <span>Install SDK:</span>
                     </li>
                   </ul>
                   <div className="mt-3 bg-black/50 rounded-lg p-3 flex items-center justify-between">
@@ -192,17 +192,17 @@ print(f"Result: {result}")`
                   <div className="w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center font-bold text-sm">
                     2
                   </div>
-                  <h4 className="text-lg font-semibold text-white">Настройка кошелька</h4>
+                  <h4 className="text-lg font-semibold text-white">Wallet Setup</h4>
                 </div>
                 <div className="bg-gray-800/50 border border-white/10 rounded-xl p-4 ml-11">
                   <ul className="space-y-3 text-gray-300">
                     <li className="flex items-start gap-2">
                       <span className="text-indigo-400 mt-1">▸</span>
-                      <span>Создать новый кошелек (не используйте основной!)</span>
+                      <span>Create a new wallet (do NOT use your main wallet!)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-indigo-400 mt-1">▸</span>
-                      <span>Добавить приватный ключ в <code className="bg-black/30 px-2 py-0.5 rounded">.env</code>:</span>
+                      <span>Add private key to <code className="bg-black/30 px-2 py-0.5 rounded">.env</code>:</span>
                     </li>
                   </ul>
                   <div className="mt-3 bg-black/50 rounded-lg p-3 flex items-center justify-between">
@@ -215,7 +215,7 @@ print(f"Result: {result}")`
                     </button>
                   </div>
                   <p className="mt-3 text-sm text-amber-400">
-                    ⚠️ <strong>Важно:</strong> Необходимо сделать Permit2 approval для возможности списания OPG токенов
+                    ⚠️ <strong>Important:</strong> You must complete Permit2 approval to enable OPG token spending
                   </p>
                 </div>
               </div>
@@ -226,10 +226,10 @@ print(f"Result: {result}")`
                   <div className="w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center font-bold text-sm">
                     3
                   </div>
-                  <h4 className="text-lg font-semibold text-white">Деплой модели</h4>
+                  <h4 className="text-lg font-semibold text-white">Deploy Model</h4>
                 </div>
                 <div className="bg-gray-800/50 border border-white/10 rounded-xl p-4 ml-11">
-                  <p className="text-gray-300 mb-3">Пример кода для деплоя:</p>
+                  <p className="text-gray-300 mb-3">Deployment code example:</p>
                   <div className="bg-black/50 rounded-lg p-4 overflow-x-auto">
                     <pre className="text-sm text-gray-300">
                       <code>{deployCode}</code>
@@ -250,10 +250,10 @@ print(f"Result: {result}")`
                   <div className="w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center font-bold text-sm">
                     4
                   </div>
-                  <h4 className="text-lg font-semibold text-white">Запуск инференса</h4>
+                  <h4 className="text-lg font-semibold text-white">Run Inference</h4>
                 </div>
                 <div className="bg-gray-800/50 border border-white/10 rounded-xl p-4 ml-11">
-                  <p className="text-gray-300 mb-3">Пример использования модели:</p>
+                  <p className="text-gray-300 mb-3">Inference example:</p>
                   <div className="bg-black/50 rounded-lg p-4 overflow-x-auto">
                     <pre className="text-sm text-gray-300">
                       <code>{inferCode}</code>
@@ -270,7 +270,7 @@ print(f"Result: {result}")`
 
               {/* Resources */}
               <div className="bg-gradient-to-r from-indigo-900/30 to-violet-900/30 border border-indigo-500/30 rounded-xl p-6 mb-6">
-                <h4 className="text-lg font-semibold text-white mb-4">📚 Ресурсы</h4>
+                <h4 className="text-lg font-semibold text-white mb-4">📚 Resources</h4>
                 <ul className="space-y-2">
                   <li>
                     <a
@@ -317,19 +317,19 @@ print(f"Result: {result}")`
 
               {/* Known Issues */}
               <div className="bg-amber-900/20 border border-amber-500/30 rounded-xl p-4 mb-6">
-                <h4 className="text-lg font-semibold text-amber-400 mb-2">⚠️ Известные проблемы</h4>
+                <h4 className="text-lg font-semibold text-amber-400 mb-2">⚠️ Known Issues</h4>
                 <ul className="space-y-2 text-sm text-gray-300">
                   <li className="flex items-start gap-2">
                     <span className="text-amber-400 mt-0.5">•</span>
-                    <span><strong>DNS проблемы:</strong> <code className="bg-black/30 px-1.5 py-0.5 rounded text-amber-300">llm.opengradient.ai</code> может не резолвиться. Используйте IP: <code className="bg-black/30 px-1.5 py-0.5 rounded text-amber-300">3.15.214.21</code></span>
+                    <span><strong>DNS Issues:</strong> <code className="bg-black/30 px-1.5 py-0.5 rounded text-amber-300">llm.opengradient.ai</code> may not resolve. Use IP: <code className="bg-black/30 px-1.5 py-0.5 rounded text-amber-300">3.15.214.21</code></span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-amber-400 mt-0.5">•</span>
-                    <span><strong>402 Payment Required:</strong> Убедитесь, что есть OPG токены и сделан Permit2 approval</span>
+                    <span><strong>402 Payment Required:</strong> Ensure you have OPG tokens and Permit2 approval is set</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-amber-400 mt-0.5">•</span>
-                    <span><strong>Лимит faucet:</strong> 0.1 OPG на запрос, интервал ~3 часа</span>
+                    <span><strong>Faucet Limit:</strong> 0.1 OPG per request, ~3 hour cooldown</span>
                   </li>
                 </ul>
               </div>
@@ -339,29 +339,11 @@ print(f"Result: {result}")`
                 onClick={() => setShowDeployGuide(false)}
                 className="w-full py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-xl transition-colors"
               >
-                Закрыть
+                Close
               </button>
             </div>
           </div>
         )}
-      </div>
-    </div>
-  )
-}
-
-interface InfoCardProps {
-  label: string
-  value: string
-  highlight?: boolean
-  color?: string
-}
-
-function InfoCard({ label, value, highlight, color = 'text-white' }: InfoCardProps) {
-  return (
-    <div className="bg-white/5 border border-white/10 rounded-xl p-4">
-      <div className="text-xs text-gray-500 mb-1 font-medium">{label}</div>
-      <div className={`text-lg font-semibold ${highlight ? color : 'text-white'}`}>
-        {value}
       </div>
     </div>
   )
